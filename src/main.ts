@@ -9,7 +9,9 @@ import './style.css'
 // import './topics/03-functions';
 // import './topics/04-homeworks-types';
 // import './topics/05-basic-destructuring';
-import './topics/05-basic-destructuring-arrays';
+// import './topics/05-basic-destructuring-arrays';
+
+import './topics/07-import-export';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   Hola
