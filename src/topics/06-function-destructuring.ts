@@ -24,7 +24,7 @@ interface TaxCalculationOptions {
 
 // function taxCalculation( options: TaxCalculationOptions ): [number, number] {
 // function taxCalculation( {products, tax}: TaxCalculationOptions ): [number, number] {
-function taxCalculation( options: TaxCalculationOptions ): [number, number] {
+export function taxCalculation( options: TaxCalculationOptions ): [number, number] {
     const { tax, products } = options; 
     let total = 0;
 
