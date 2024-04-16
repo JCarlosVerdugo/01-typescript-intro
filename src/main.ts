@@ -10,9 +10,9 @@ import './style.css'
 // import './topics/04-homeworks-types';
 // import './topics/05-basic-destructuring';
 // import './topics/05-basic-destructuring-arrays';
-
 // import './topics/07-import-export';
-import './topics/08-classes';
+// import './topics/08-classes';
+import './topics/09-generics';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   Hola
